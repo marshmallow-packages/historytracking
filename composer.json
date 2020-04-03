@@ -1,0 +1,42 @@
+{
+    "name": "marshmallow/historytracking",
+    "description": "Track all changes on a specific model.",
+    "keywords": [
+        "eloquent-seoable",
+        "eloquent",
+        "seoable",
+        "marshmallow"
+    ],
+    "homepage": "https://github.com/Marshmallow-Development/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van Esch",
+            "email": "stef@marshmallow.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\HistoryTracking\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Marshmallow\\HistoryTracking\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\HistoryTracking\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
